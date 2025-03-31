@@ -1,5 +1,5 @@
 import openai
-from webhook import config
+from roo import config
 
 def write_to_assistant(assistant_id, content):
     try:

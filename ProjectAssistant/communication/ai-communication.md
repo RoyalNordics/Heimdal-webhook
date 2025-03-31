@@ -1,2 +1,1 @@
-Strukturen er klar. Klar til næste opgave.
-Opgave 001 er nu fuldført.
+The webhook endpoint `/webhook` needs to be tested to ensure that it returns a correct JSON response.

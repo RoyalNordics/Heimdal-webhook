@@ -1,4 +1,4 @@
-from webhook import config
+from config import config
 from webhook.roo.actions import create_file
 
 from webhook.roo.actions import openai_prompt

@@ -1,6 +1,21 @@
+[
 {
   "task_id": "001",
   "description": "Opret mappestruktur og initialiser bygge-filer",
   "status": "done",
   "timestamp": "2025-03-31T11:35:44Z"
+},
+{
+  "task_id": "004",
+  "description": "Check webhook configuration",
+  "status": "incomplete",
+  "timestamp": "2025-03-31T14:36:37Z"
+}
+]
+,
+{
+  "task_id": "004",
+  "description": "Check webhook configuration",
+  "status": "incomplete",
+  "timestamp": "2025-03-31T14:36:37Z"
 }

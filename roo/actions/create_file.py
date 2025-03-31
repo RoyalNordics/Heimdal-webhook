@@ -1,5 +1,5 @@
 from github import Github
-from webhook import config
+from roo import config
 import os
 import json
 import datetime

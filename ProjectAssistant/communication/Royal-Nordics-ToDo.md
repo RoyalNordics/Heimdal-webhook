@@ -1,1 +1,1 @@
-INIT – ready for task input
+The webhook endpoint `/webhook` needs to be tested to ensure that it returns a correct JSON response.

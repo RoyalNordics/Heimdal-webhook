@@ -1,5 +1,5 @@
 import openai
-from webhook import config
+from roo import config
 
 def openai_prompt(prompt):
     try:

@@ -2,7 +2,11 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 import json
 
+import os
+
 app = FastAPI()
+
+port = int(os.environ.get("PORT", 8000))
 
 @app.post("/webhook")
 async def webhook_endpoint(request: Request):
