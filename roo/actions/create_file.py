@@ -1,14 +1,18 @@
 from github import Github
 import config
+OPENAI_API_KEY = config.OPENAI_API_KEY
+GITHUB_PAT = config.GITHUB_PAT
+GITHUB_REPO = config.GITHUB_REPO
+GITHUB_BRANCH = config.GITHUB_BRANCH
 import os
 import json
 import datetime
 
 def create_file(filename, content):
     try:
-        g = Github(config.GITHUB_PAT)
-        repo = g.get_repo(config.GITHUB_REPO)
-        branch = config.GITHUB_BRANCH
+        g = Github(GITHUB_PAT)
+        repo = g.get_repo(GITHUB_REPO)
+        branch = GITHUB_BRANCH
         
         # Check if file exists
         try:
@@ -41,7 +45,7 @@ def create_file(filename, content):
             return {"status": "success", "message": f"File {filename} updated successfully"}
         except:
             # File doesn't exist, create it
-            repo.create_file(filename, "Created file via webhook", content, branch=branch)
+            repo.create_file(filename, content, "Created file via webhook", branch=branch)
             # Commit and push changes
             os.system(f'git commit -m "Auto-update via Heimdal Assistant" && git push origin {branch}')
             # Log task in roo.runplan.json
