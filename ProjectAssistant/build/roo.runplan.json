@@ -10,12 +10,11 @@
   "description": "Check webhook configuration",
   "status": "incomplete",
   "timestamp": "2025-03-31T14:36:37Z"
+},
+{
+  "task_id": "009",
+  "description": "Add webhook endpoint correctly",
+  "status": "done",
+  "timestamp": "2025-03-31T16:26:48Z"
 }
 ]
-,
-{
-  "task_id": "004",
-  "description": "Check webhook configuration",
-  "status": "incomplete",
-  "timestamp": "2025-03-31T14:36:37Z"
-}

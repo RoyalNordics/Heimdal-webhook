@@ -1,1 +1,1 @@
-The webhook endpoint `/webhook` needs to be tested to ensure that it returns a correct JSON response.
+Webhook endpoint added to Heimdal backend. The webhook now exists on POST /api/v1/webhook/.
