@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Request
 from fastapi.responses import JSONResponse
-from roo.roo_core import handle_action  # Opdater stien hvis nødvendigt
+from backend.app.services.roo.roo_core import handle_action
 
 router = APIRouter()
 

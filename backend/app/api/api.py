@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from app.api.routes import posts
-from app.api.endpoints import webhook  # 👈 Tilføjet webhook import
+from backend.app.api.routes import posts
+from backend.app.api.endpoints import webhook  # 👈 Tilføjet webhook import
 
 # Main API router
 api_router = APIRouter()
