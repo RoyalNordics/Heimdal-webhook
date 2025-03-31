@@ -16,5 +16,11 @@
   "description": "Add webhook endpoint correctly",
   "status": "done",
   "timestamp": "2025-03-31T16:26:48Z"
+},
+{
+  "task_id": "010",
+  "description": "Aktiver webhook endpoint korrekt i Heimdal",
+  "status": "done",
+  "timestamp": "2025-03-31T16:38:30Z"
 }
 ]
