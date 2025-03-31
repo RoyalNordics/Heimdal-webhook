@@ -1,9 +1,9 @@
 from config import GITHUB_PAT, GITHUB_REPO, GITHUB_BRANCH, OPENAI_API_KEY, SUPABASE_URL, SUPABASE_API_KEY, WEBHOOK_URL
-from roo.actions import create_file
+from backend.app.services.roo.actions import create_file
 
-from .actions import openai_prompt
+from backend.app.services.roo.actions import openai_prompt
  
-from .actions import write_to_assistant
+from backend.app.services.roo.actions import write_to_assistant
 
 def handle_action(action, filename, content, assistant_id=None):
     if action == "create_file":

@@ -1,10 +1,10 @@
 import openai
-import config
+import backend.app.core.config as config
 OPENAI_API_KEY = config.OPENAI_API_KEY
 
 def openai_prompt(prompt):
     try:
-        openai.api_key = OPENAI_API_KEY
+        openai.api_key = config.OPENAI_API_KEY
         response = openai.Completion.create(
             engine="text-davinci-003",  # Or any other suitable engine
             prompt=prompt,

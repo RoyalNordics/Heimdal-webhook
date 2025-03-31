@@ -1,5 +1,5 @@
 from github import Github
-import config
+import backend.app.core.config as config
 OPENAI_API_KEY = config.OPENAI_API_KEY
 GITHUB_PAT = config.GITHUB_PAT
 GITHUB_REPO = config.GITHUB_REPO
@@ -10,9 +10,9 @@ import datetime
 
 def create_file(filename, content):
     try:
-        g = Github(GITHUB_PAT)
-        repo = g.get_repo(GITHUB_REPO)
-        branch = GITHUB_BRANCH
+        g = Github(config.GITHUB_PAT)
+        repo = g.get_repo(config.GITHUB_REPO)
+        branch = config.GITHUB_BRANCH
         
         # Check if file exists
         try:

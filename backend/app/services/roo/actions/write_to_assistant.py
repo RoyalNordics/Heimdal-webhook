@@ -1,10 +1,10 @@
 import openai
-import config
+import backend.app.core.config as config
 OPENAI_API_KEY = config.OPENAI_API_KEY
 
 def write_to_assistant(assistant_id, content):
     try:
-        openai.api_key = OPENAI_API_KEY
+        openai.api_key = config.OPENAI_API_KEY
         # Create a message to send to the assistant
         message = openai.beta.threads.messages.create(
             thread_id=assistant_id,
