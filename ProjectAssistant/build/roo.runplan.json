@@ -22,5 +22,11 @@
   "description": "Aktiver webhook endpoint korrekt i Heimdal",
   "status": "done",
   "timestamp": "2025-03-31T16:38:30Z"
+},
+{
+  "task_id": "011",
+  "description": "Aktiver webhook-router i Heimdal API",
+  "status": "done",
+  "timestamp": "2025-03-31T16:50:58Z"
 }
 ]

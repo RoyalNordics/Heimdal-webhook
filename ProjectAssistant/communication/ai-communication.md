@@ -1,1 +1,1 @@
-Webhook endpoint added to Heimdal backend. The webhook now exists on POST /api/v1/webhook/.
+Webhook endpoint added to Heimdal backend. The webhook now exists on POST /api/v1/webhook/ and is correctly registered in api.py.
