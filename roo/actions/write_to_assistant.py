@@ -1,5 +1,5 @@
 import openai
-from roo import config
+import config
 
 def write_to_assistant(assistant_id, content):
     try:

@@ -1,4 +1,4 @@
-from config import config
+from config import GITHUB_PAT, GITHUB_REPO, GITHUB_BRANCH, OPENAI_API_KEY, SUPABASE_URL, SUPABASE_API_KEY, WEBHOOK_URL
 from webhook.roo.actions import create_file
 
 from webhook.roo.actions import openai_prompt

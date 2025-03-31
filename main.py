@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
-from roo.roo_core import handle_action
+from roo_core import handle_action
 
 app = FastAPI()
 

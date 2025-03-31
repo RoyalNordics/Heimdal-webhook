@@ -1,5 +1,5 @@
 import openai
-from roo import config
+import config
 
 def openai_prompt(prompt):
     try:
